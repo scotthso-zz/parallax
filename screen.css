@@ -56,7 +56,7 @@ body {
 	position: fixed;
 }
 
-#aboutme, #canada, #photography, #art{
+#aboutme, #canada, #photography, #art, #hiphop{
     font-size: 50pt;
     z-index:4;
 }
@@ -114,11 +114,10 @@ body {
 
 
 
-#bg1, #bg2, #bgcanada, #bgcamera, #bgpants, #bgcap, #bgbrush{
+#bg1, #bg2, #bgcanada, #bgwaterloo, #bgcamera, #bgswimming, #bgbasketball, #bgpants, #bgcap, #bgbrush, #bghiphop{
 	z-index:50;
-    position: fixed;
-	top:0;
-	left:0;
+    position: absolute;
+
 	width:100%;
 	height:100%;
 	background:url(images/star2.png);
@@ -131,9 +130,27 @@ body {
     background-repeat: no-repeat;
 }
 
+#bgwaterloo{
+    z-index:49;
+    background-image:url(images/waterloo-icon.png);
+    background-repeat: no-repeat;
+}
+
 #bgcamera{
     z-index:49;
 	background-image:url(images/camera-icon.png);
+    background-repeat: no-repeat;
+}
+
+#bgswimming{
+    z-index:49;
+	background-image:url(images/goggles-icon.png);
+    background-repeat: no-repeat;
+}
+
+#bgbasketball{
+    z-index:49;
+	background-image:url(images/basketball-icon.png);
     background-repeat: no-repeat;
 }
 
@@ -152,6 +169,12 @@ body {
 #bgbrush{
     z-index:49;
 	background-image:url(images/brush-icon.png);
+    background-repeat: no-repeat;
+}
+
+#bghiphop{
+    z-index:49;
+	background-image:url(images/wutang-icon.png);
     background-repeat: no-repeat;
 }
 
